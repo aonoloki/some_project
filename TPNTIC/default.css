@@ -1,3 +1,7 @@
+body {
+  background-color: #000000;
+}
+
 ul {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -38,28 +42,31 @@ iframe {
 }
 
 .onglet {
+ border-top-left-radius: 20%;
+ border-top-right-radius: 20%;
  display: inline-block;
  margin: auto;
  padding: 3px;
- border: 1px solid black;
+ border: 1px solid white;
  cursor: pointer;
 }
 
 .onglet_0 {
- background: #bbbbbb;
- border-bottom: 1px solid black;
+ background: #2C7763;
+ border-bottom: 1px solid white;
 }
 
 .onglet_1 {
- background: #dddddd;
- border-bottom: 0px solid black;
+ background: #74BF7C;
+ border-bottom: 0px solid white;
  padding-bottom: 4px;
 }
 
 .contenu_onglet {
+ background: url("img/font.jpg");
  text-align: center;
- background-color: #dddddd;
- border:1px solid black;
+ background-color: #74BF7C;
+ border:1px solid white;
  margin-top: -1px;
  padding: 5px;
  display: none;
@@ -88,6 +95,7 @@ iframe {
 
 .required {
   color: #FF1919;
+  text-shadow: 1px 1px #000;
 }
 
 #content {
@@ -96,5 +104,4 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid #FFF
 }
