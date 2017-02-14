@@ -20,13 +20,15 @@
 <body>
   <div class="systeme_onglets">
     <div class="onglets">
-      <span class="onglet_0 onglet" id="onglet_quoi" onclick="javascript:change_onglet('quoi');">Quoi</span>
-      <span class="onglet_0 onglet" id="onglet_qui" onclick="javascript:change_onglet('qui');">Qui</span>
-      <span class="onglet_0 onglet" id="onglet_pourquoi" onclick="javascript:change_onglet('pourquoi');">Pourquoi</span>
+      <span class="onglet_0 onglet" id="onglet_acceuil" onclick="javascript:change_onglet('acceuil');">Accueil</span>
+      <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Présentation</span>
+      <span class="onglet_0 onglet" id="onglet_demo" onclick="javascript:change_onglet('demo');">Démonstration</span>
+      <span class="onglet_0 onglet" id="onglet_creator" onclick="javascript:change_onglet('creator');">Création</span>
+      <span class="onglet_0 onglet" id="onglet_contact" onclick="javascript:change_onglet('contact');">Contact</span>
     </div>
     <div class="contenu_onglets">
-      <div class="contenu_onglet" id="contenu_onglet_quoi">
-        <h1>Quoi?</h1>
+      <div class="contenu_onglet" id="contenu_onglet_acceuil">
+        <h1>Bienvenue!</h1>
         Un simple syst&egrave;me d'onglet utilisant les technologies:<br />
         <ul>
           <li>(X)html</li>
@@ -34,20 +36,38 @@
           <li>Javascript</li>
         </ul>
       </div>
-      <div class="contenu_onglet" id="contenu_onglet_qui">
-        <h1>Qui?</h1>
+      <div class="contenu_onglet" id="contenu_onglet_presentation">
+        <h1>Une nouvelle génération</h1>
         C'est un script r&eacute;alis&eacute; par Ybouane,<br />
         Webmaster du site <a href="http://www.supportduweb.com/">http://www.supportduweb.com/</a>
       </div>
-      <div class="contenu_onglet" id="contenu_onglet_pourquoi">
-        <h1>Pourquoi?</h1>
+      <div class="contenu_onglet" id="contenu_onglet_demo">
+        <h1>Les 1e résultats sont déjà là!</h1>
         Pour simplifier la navigation et la diviser en parties
+      </div>
+      <div class="contenu_onglet" id="contenu_onglet_creator">
+        <h1>Développement</h1>
+        Pour simplifier la navigation et la diviser en parties
+      </div>
+      <div class="contenu_onglet" id="contenu_onglet_contact">
+        <h1>Des questions?</h1>
+          <div id="content">
+              <form action=" " method="post"  autocomplete="on">
+          			<p> <label for="username" class="info" > Nom <span class="required">*</span></label> <input type="text" name="username" id="username"  required="required" placeholder="A qui ai-je l'honneur ?"  /> </p>
+          			<p> <label for="usermail" class="info"> E-mail <span class="required">*</span></label> <input type="email" name="usermail" id="usermail" placeholder="Aucun spam ou pub ne sera envoyé" required="required"  /> </p>
+          			<p> <label for="usersite" class="info"> Site </label> <input type="url" name="usersite" id="usersite"  placeholder="ex: http://www.monsite.com" /> </p>
+          			<p> <label for="subject" class="info"> Objet </label> <input type="text" name="subject" id="subject"  placeholder="Un sujet vous intéresse ?" /> </p>
+          			<p> <label for="message" class="info"> Message  <span class="required">*</span></label> <textarea placeholder="Ne soyez pas timide! Une réponse vous sera envoyé au plus vite."  required="required" ></textarea> </p>
+          			<p class="indication"> Les champs marqués d'une <span class="required">*</span> sont obligatoires. </p>
+          		<input type="submit" value=" ★  Envoyer votre message !" />
+          	</form>
+          </div>
       </div>
     </div>
   </div>
   <script type="text/javascript">
   //<!--
-  var anc_onglet = 'quoi';
+  var anc_onglet = 'acceuil';
   change_onglet(anc_onglet);
   //-->
   </script>
