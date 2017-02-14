@@ -1,41 +1,76 @@
 ul {
-  margin-top:0px;
-  margin-bottom:0px;
-  margin-left:-10px
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -10px
 }
 
 h1 {
- margin:0px;
- padding:0px;
+ position: relative;
+ margin: 0px;
+ padding: 0px;
+}
+
+p {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+.screen {
+  margin: auto;
+  display: block;
+}
+
+.logo {
+  width: 75px;
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+  border-radius: 5%;
+  position: relative;
 }
 
 .onglet {
- display:inline-block;
- margin-left:3px;
- margin-right:3px;
- padding:3px;
- border:1px solid black;
- cursor:pointer;
+ display: inline-block;
+ margin: auto;
+ padding: 3px;
+ border: 1px solid black;
+ cursor: pointer;
 }
 
 .onglet_0 {
- background:#bbbbbb;
- border-bottom:1px solid black;
+ background: #bbbbbb;
+ border-bottom: 1px solid black;
 }
 
 .onglet_1 {
- background:#dddddd;
- border-bottom:0px solid black;
- padding-bottom:4px;
+ background: #dddddd;
+ border-bottom: 0px solid black;
+ padding-bottom: 4px;
 }
 
 .contenu_onglet {
  text-align: center;
- background-color:#dddddd;
+ background-color: #dddddd;
  border:1px solid black;
- margin-top:-1px;
- padding:5px;
- display:none;
+ margin-top: -1px;
+ padding: 5px;
+ display: none;
+}
+
+.form {
+  width: 40%;
+  margin: 5px auto;
+  text-align: center;
+  display: block;
+  float: center;
 }
 
 .info {
@@ -44,12 +79,12 @@ h1 {
   text-align: center;
   display: block;
   float: center;
-  border: 1px solid #000
 }
 
 .indication {
   text-decoration: underline;
   font-style: italic;
+  text-align: center;
 }
 
 .required {
@@ -61,6 +96,5 @@ h1 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  border: 1px solid #fff
+  justify-content: space-around
 }
