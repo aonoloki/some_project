@@ -1,0 +1,50 @@
+h1 {
+  font-family: 'Aclonica', serif;
+  font-size: 35px;
+  color: #b6bab9;
+  text-align: center;
+}
+
+h2 {
+  color: #b6bab9;
+  font-size: 25px;
+  font-style: italic;
+}
+
+body {
+  background: url(font.jpg) repeat;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+}
+
+p {
+  color: #F09900;
+}
+
+ul {
+  font-family: 'Delius', serif;
+  list-style-type: none;
+}
+
+a {
+  color: #F09900;
+}
+
+a:hover {
+  color: #FF1500;
+}
+
+.entete {
+  text-align: center;
+  color: #FF1500;
+}
+
+.presentation {
+  font-family: 'Delius', serif;
+  text-align: center;
+}

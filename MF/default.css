@@ -1,0 +1,91 @@
+body {
+  background: #242823;
+}
+
+img {
+  margin-top: 50px;
+  width: 500px;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: 50px;
+  border-bottom: 50px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #AF0022;
+}
+
+a:hover {
+  color: #E99C00;
+}
+
+p {
+  text-align: center;
+  color: #E99C00;
+  font-family: "Mogra";
+  font-size: 20px;
+}
+
+.menu {
+  font-size: 65px;
+}
+
+.playername {
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #B8BFC0;
+}
+
+.iconpost {
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+}
+
+.player {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+.txt {
+  text-align: center;
+  font-family: "La Belle Aurore";
+  font-size: 20px;
+  color: #E99C00;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.txtunderlogo {
+  text-align: center;
+  color: #AF0022;
+  font-size: 30px;
+  font-family: "Homemade Apple";
+}
+
+#menu {
+  display: inline;
+	top: 0;
+	width: 100%;
+  background-color: #242823;
+}
+
+#returnmenu {
+  position: fixed;
+  background-color: #242823;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
