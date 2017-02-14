@@ -3,22 +3,39 @@ body {
 }
 
 ul {
+  font-family: 'Sniglet';
+  color: #FF4E04;
+  text-shadow: 1px 1px #000;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: -10px
 }
 
 h1 {
- position: relative;
- margin: 0px;
- padding: 0px;
+  font-family: 'Marko One';
+  color: #FF4E04;
+  text-shadow: 1px 1px #FFF;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
 }
 
 p {
+  font-family: 'Sniglet';
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 25px;
   text-align: left;
+  color: #FF4E04;
+  text-shadow: 1px 1px #000;
 }
 
 ol {
+  font-family: 'Sniglet';
+  color: #FF4E04;
+  text-shadow: 1px 1px #000;
   text-align: left;
 }
 
@@ -35,41 +52,48 @@ iframe {
 .logo {
   width: 50px;
   float: right;
-  top: 40px;
+  top: 50px;
   right: 15px;
   border-radius: 5%;
   position: absolute;
 }
 
 .onglet {
- border-top-left-radius: 20%;
- border-top-right-radius: 20%;
- display: inline-block;
- margin: auto;
- padding: 3px;
- border: 1px solid white;
- cursor: pointer;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  display: inline-block;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .onglet_0 {
- background: #2C7763;
- border-bottom: 1px solid white;
+  font-family: 'Joti One';
+  color: #FFF;
+  font-size: 20px;
+  background: #05293F;
+  border-bottom: 1px solid white;
 }
 
 .onglet_1 {
- background: #74BF7C;
- border-bottom: 0px solid white;
- padding-bottom: 4px;
+  font-family: 'Joti One';
+  font-size: 20px;
+  color: #FF4E04;
+  text-shadow: 1px 1px #000;
+  background: #75BC9A;
+  border-bottom: 0px solid white;
+  padding-bottom: 4px;
 }
 
 .contenu_onglet {
- background: url("img/font.jpg");
- text-align: center;
- background-color: #74BF7C;
- border:1px solid white;
- margin-top: -1px;
- padding: 5px;
- display: none;
+  background: url("img/font.jpg");
+  text-align: center;
+  background-color: #74BF7C;
+  border:1px solid white;
+  margin-top: -1px;
+  padding: 5px;
+  display: none;
 }
 
 .form {
@@ -80,6 +104,7 @@ iframe {
 }
 
 .info {
+  font-size: 20px;
   width: 40%;
   margin: auto;
   text-align: center;
