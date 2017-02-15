@@ -1,15 +1,16 @@
 body {
   background-color: #546E7A;
-  margin: 10px 15px;
+  margin: 1vh 1.5vw;
 }
 
 ul {
+  font-size: 5vh;
   font-family: 'Sniglet';
   color: #FFD600;
   text-shadow: 1px 1px #000;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: -10px
+  margin-left: -10px;
 }
 
 h1 {
@@ -19,21 +20,22 @@ h1 {
   position: relative;
   margin: 0px;
   padding: 0px;
-  font-size: 40px;
+  font-size: 8vh;
 }
 
 p {
   font-family: 'Sniglet';
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
   text-align: justify;
-  font-size: 25px;
+  font-size: 5vh;
   text-align: left;
   color: #FFD600;
   text-shadow: 1px 1px #000;
 }
 
 ol {
+  font-size: 5vh;
   font-family: 'Sniglet';
   color: #FFD600;
   text-shadow: 1px 1px #000;
@@ -58,7 +60,7 @@ aside {
 }
 
 .logo {
-  width: 75px;
+  width: 10.5vw;
   border-radius: 15%;
 }
 
@@ -67,7 +69,7 @@ aside {
   border-top-right-radius: 20%;
   display: inline-block;
   margin: auto;
-  padding: 3px;
+  padding: 0.1vw;
   border: 1px solid white;
   cursor: pointer;
 }
@@ -75,7 +77,8 @@ aside {
 .onglet_0 {
   font-family: 'Joti One';
   color: #FFF;
-  font-size: 20px;
+  font-size: 4vh;
+  padding: 0.1vw;
   background: #05293F;
   border-bottom: 1px solid white;
   box-shadow: 0px -3px 11px 2px rgba(255, 255, 255, 0.75);
@@ -83,12 +86,12 @@ aside {
 
 .onglet_1 {
   font-family: 'Joti One';
-  font-size: 20px;
+  font-size: 4vh;
   color: #FF4E04;
   text-shadow: 1px 1px #000;
   background: #6DC0A6;
   border-bottom: 0px solid white;
-  padding-bottom: 4px;
+  padding-bottom: 0.1vh;
   box-shadow: 0px -3px 11px 2px rgba(255, 255, 255, 0.75);
 }
 
@@ -98,7 +101,7 @@ aside {
   background-color: #74BF7C;
   border:1px solid white;
   margin-top: -1px;
-  padding: 5px;
+  padding: 1%;
   display: none;
   border-top-right-radius: 2%;
   border-bottom-left-radius: 3%;
@@ -113,7 +116,7 @@ aside {
 }
 
 .info {
-  font-size: 20px;
+  font-size: 5vh;
   width: 40%;
   margin: auto;
   text-align: center;
@@ -122,7 +125,7 @@ aside {
 }
 
 .indication {
-  font-size: 15px;
+  font-size: 3vh;
   text-decoration: underline;
   font-style: italic;
   text-align: center;
@@ -133,9 +136,13 @@ aside {
   text-shadow: 1px 1px #000;
 }
 
+.send {
+  margin-bottom: 0.5vh;
+}
+
 #content {
   width: 65%;
-  margin: 10px auto 10px auto;
+  margin: 1vh auto 1vh auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
