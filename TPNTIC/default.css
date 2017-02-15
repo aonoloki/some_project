@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF;
+  background-color: #546E7A;
   margin: 10px 15px;
 }
 
@@ -43,6 +43,7 @@ ol {
 iframe {
   display: block;
   margin: auto;
+  max-width: 80%;
 }
 
 aside {
@@ -51,6 +52,7 @@ aside {
 }
 
 .screen {
+  max-width: 80%;
   margin: auto;
   display: block;
 }
@@ -76,7 +78,7 @@ aside {
   font-size: 20px;
   background: #05293F;
   border-bottom: 1px solid white;
-  box-shadow: 6px 5px 18px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px -3px 11px 2px rgba(255, 255, 255, 0.75);
 }
 
 .onglet_1 {
@@ -84,11 +86,10 @@ aside {
   font-size: 20px;
   color: #FF4E04;
   text-shadow: 1px 1px #000;
-  background: #75BC9A;
+  background: #6DC0A6;
   border-bottom: 0px solid white;
   padding-bottom: 4px;
-  box-shadow: 6px 5px 18px 0px rgba(0, 0, 0, 1);
-
+  box-shadow: 0px -3px 11px 2px rgba(255, 255, 255, 0.75);
 }
 
 .contenu_onglet {
@@ -102,11 +103,10 @@ aside {
   border-top-right-radius: 2%;
   border-bottom-left-radius: 3%;
   border-bottom-right-radius: 3%;
-  box-shadow: 3px 5px 18px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 3px 11px 5px rgba(255, 255, 255, 0.75);
 }
 
 .form {
-  width: 55%;
   margin: 5px auto;
   text-align: center;
   display: block;
@@ -134,7 +134,7 @@ aside {
 }
 
 #content {
-  width: 45%;
+  width: 65%;
   margin: 10px auto 10px auto;
   display: flex;
   flex-direction: column;
