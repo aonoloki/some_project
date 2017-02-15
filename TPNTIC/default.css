@@ -1,10 +1,11 @@
 body {
-  background-color: #000000;
+  background-color: #FFF;
+  margin: 10px 15px;
 }
 
 ul {
   font-family: 'Sniglet';
-  color: #FF4E04;
+  color: #FFD600;
   text-shadow: 1px 1px #000;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -28,13 +29,13 @@ p {
   text-align: justify;
   font-size: 25px;
   text-align: left;
-  color: #FF4E04;
+  color: #FFD600;
   text-shadow: 1px 1px #000;
 }
 
 ol {
   font-family: 'Sniglet';
-  color: #FF4E04;
+  color: #FFD600;
   text-shadow: 1px 1px #000;
   text-align: left;
 }
@@ -44,18 +45,19 @@ iframe {
   margin: auto;
 }
 
+aside {
+  display: block;
+  float: right;
+}
+
 .screen {
   margin: auto;
   display: block;
 }
 
 .logo {
-  width: 50px;
-  float: right;
-  top: 50px;
-  right: 15px;
-  border-radius: 5%;
-  position: absolute;
+  width: 75px;
+  border-radius: 15%;
 }
 
 .onglet {
@@ -74,6 +76,7 @@ iframe {
   font-size: 20px;
   background: #05293F;
   border-bottom: 1px solid white;
+  box-shadow: 6px 5px 18px 0px rgba(0, 0, 0, 1);
 }
 
 .onglet_1 {
@@ -84,6 +87,8 @@ iframe {
   background: #75BC9A;
   border-bottom: 0px solid white;
   padding-bottom: 4px;
+  box-shadow: 6px 5px 18px 0px rgba(0, 0, 0, 1);
+
 }
 
 .contenu_onglet {
@@ -94,10 +99,14 @@ iframe {
   margin-top: -1px;
   padding: 5px;
   display: none;
+  border-top-right-radius: 2%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  box-shadow: 3px 5px 18px 0px rgba(0, 0, 0, 1);
 }
 
 .form {
-  width: 40%;
+  width: 55%;
   margin: 5px auto;
   text-align: center;
   display: block;
@@ -113,6 +122,7 @@ iframe {
 }
 
 .indication {
+  font-size: 15px;
   text-decoration: underline;
   font-style: italic;
   text-align: center;
@@ -124,9 +134,11 @@ iframe {
 }
 
 #content {
-  width: 80%;
-  margin: auto;
+  width: 45%;
+  margin: 10px auto 10px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15%;
 }
