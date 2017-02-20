@@ -46,11 +46,18 @@ ol {
   text-align: left;
 }
 
-iframe {
-  display: flex;
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  width: 69%;
+  height: 80%;
   margin: auto;
-  min-width: 50%;
-  max-width: 80%;
+  padding-left: 13.5vw;
 }
 
 aside {
@@ -79,8 +86,7 @@ textarea {
 }
 
 .screen {
-  min-width: 50%;
-  max-width: 80%;
+  width: 70%;
   margin: auto;
   display: block;
 }
