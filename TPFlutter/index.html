@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  <link rel="stylesheet" href="css/default.css">
+  <title>Flutter</title>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://flutter.io/" title="Visitez le site officiel"><img src="img/flutter.png" alt="Flutter Logo" title="Visitez le site officiel" width="40" height="40" style="vertical-align:middle"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html#intro">Introduction</a></li>
+        <li><a href="index.html#present">Présentation</a></li>
+        <li><a href="index.html#func">Fonctionnement</a></li>
+        <li><a href="index.html#multi">Plateforme</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div id="intro" class="col-sm-12">
+      <br><br>
+      <h1>Introduction</h1>
+      <p>
+        Flutter est un projet open source, encore à ses débuts et qui est développé en majorité par Google. Il lui est reconnu de donner aux développeurs « un moyen facile et productif pour créer et déployer des applications mobiles multiplateformes de haute performance, à la fois sur Android et iOS ».
+        <br><br>
+        Il n’utilise ni WebView ni les widgets OEM livrés avec les appareils. Il repose plutôt sur son propre moteur de rendu que ses développeurs estiment « de haute performance pour dessiner des widgets ».
+      </p>
+    </div>
+  <div class="row content">
+    <div id="present" class="col-sm-12">
+      <br><br>
+      <h1>Présentation</h1>
+      <p>
+        Le projet est construit avec les langages C, C++ et Dart. Les développeurs du projet justifient le choix de Dart pour le framework par le fait que non seulement il supporte des scripts simples, mais encore il est facilement évolutif pour les applications riches en fonctionnalités. C’est aussi un langage familier pour les développeurs JavaScript, Java et C#, qui permet encore de répondre à la nécessité d’une exécution rapide sur iOS.
+        <br><br>
+        Flutter repose aussi sur le moteur de rendu 2D Skia, ainsi que sur le système de communication interprocessus de Mojo. À travers le système IPC de Mojo, Flutter permet aux développeurs d’accéder à tout service ou API fournis par le système d’exploitation hôte. De manière plus générale, ce système de communication interprocessus permet d’assurer la compatibilité entre le code de l’application Flutter et le système d’exploitation hôte.
+        <br><br>
+        <img class="bodyimg" src="img/systflu.png" alt="Arborescence Flutter">
+      </p>
+    </div>
+  </div>
+  <div class="row content">
+    <div id="func" class="col-sm-12">
+      <br><br>
+      <h1>Fonctionnement</h1>
+      <p>
+        Voici un code simple qui génère une application de test de clic, testé sur Iphone.
+        <br>
+        <img class="bodyimg" src="img/hot-reload.gif" alt="Exemple d'un test sur IOS">
+      </p>
+      <p>
+        La force de Flutter réside dans le fait qu'à partir d'un seul et même code, une application pourra être générée pour les plateformes IOS et une autre pour les appareils Android.
+        <br><br>
+        <img class="bodyimg" src="img/multi.png" alt="Un code, une appli hybride">
+        <br><br>
+        Flutter peut être utilisé à l’intérieur des applications natives Android et iOS existantes, et les applications développées peuvent être déployées via Apple App Store ou Google Play Store.
+        <br><br>
+        Sur Android, le code C/C++ est compilé avec le kit de développement natif (NDK) Android. La machine virtuelle Dart, sur laquelle la majorité du code du framework et de l’application est exécuté, génère alors un code natif compilé à la volée. Sur iOS, le code est traduit en code natif avec LLVM par compilation anticipée.
+      </p>
+    </div>
+  </div>
+  <div class="row content">
+    <div id="multi" class="col-sm-12">
+      <br><br>
+      <h1>Le multi-plateforme</h1>
+      <p>
+        Les applications Flutter tournent sous Android Jelly Bean 4.1.x et iOS 5, ainsi que les versions plus récentes des deux systèmes. Une variété de tablettes et téléphones de différentes gammes sont actuellement testés afin de garantir une compatibilité avec les appareils. Ces applications peuvent être développées sur Linux et Mac. Un support pour Windows est également prévu.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <p>
+    "Flutter, un code, deux applications"
+  </p>
+  <p>
+    <a href="https://flutter.io/faq/" target="_blank">Découvir la F.A.Q oficielle</a>
+  </p>
+</footer>
+
+</body>
+</html>

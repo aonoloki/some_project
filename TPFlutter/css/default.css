@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  margin-top: 5vh;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 3vh;
+}
+
+p {
+  text-align: center;
+}
+
+.bodyimg {
+  margin: 3vh auto;
+  width: 40vw;
+}
+
+.navbar-brand {
+  padding-top: 1vh;
+}
+
+.logo {
+  margin-top: 0;
+  width: 3vw;
+}
+
+.navbar {
+  background-color: #B2EBF2;
+}
+
+.row.content {
+  height: auto;
+}
+
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+}
