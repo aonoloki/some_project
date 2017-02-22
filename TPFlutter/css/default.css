@@ -1,10 +1,8 @@
 h1 {
+  color: #01579B;
+  font-size: 5vh;
   text-align: center;
   font-family: 'Damion';
-}
-
-body {
-  margin-top: 5vh;
 }
 
 footer {
@@ -18,7 +16,20 @@ ul {
   font-size: 2.5vh;
 }
 
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: #B2EBF2;
+}
+
+a:visited {
+  color: #B2EB02;
+}
+
 p {
+  padding: 1vh 5vw;
   text-align: center;
   font-family: 'Itim';
   font-size: 2.5vh;
@@ -29,41 +40,13 @@ p {
   width: 45vw;
 }
 
-.navbar-brand {
-  padding-top: 1vh;
-}
-
-.logo {
-  margin-top: 0;
-  width: 3vw;
-}
-
 .navbar {
   background-color: #B2EBF2;
 }
 
-.row.content {
-  height: auto;
-}
-
-.sidenav {
-  padding-top: 20px;
-  height: 100%;
-}
-
 @media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-
   .bodyimg {
-    width: 65vw;
+    width: 75vw;
     margin: auto;
   }
 
@@ -71,6 +54,6 @@ p {
     text-align: center;
     font-family: 'Itim';
     font-size: 4.5vh;
-    margin: 1vh;
+    margin: 2vh;
   }
 }
