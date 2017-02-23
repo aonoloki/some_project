@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Damion';
+  src: url("../font/Damion.woff2")
+}
+
+@font-face {
+  font-family: 'Itim';
+  src: url("../font/Itim.woff2")
+}
+
 body {
   margin-top: 3vh;
 }
@@ -18,6 +28,10 @@ ul {
   text-align: center;
   font-family: 'Itim';
   font-size: 2.5vh;
+}
+
+li {
+  margin: 1vh auto;
 }
 
 a {
@@ -46,7 +60,6 @@ p {
 
 .navbar {
   background-color: #B2EBF2;
-  padding-bottom: 2vh;
 }
 
 .sidenav {
@@ -55,6 +68,11 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  .logo {
+    margin-top: -1.4vh;
+    margin-left: -2vw;
+  }
+
   .bodyimg {
     width: 75vw;
     margin: auto;
