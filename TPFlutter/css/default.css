@@ -8,11 +8,59 @@
   src: url("../font/Itim.woff2")
 }
 
+/* start of css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of css reset*/
+
 body {
   margin-top: 3vh;
+  background-color: #555;
 }
 
 h1 {
+  margin-top: -2.5vh;
   color: #01579B;
   font-size: 5vh;
   text-align: center;
@@ -20,7 +68,7 @@ h1 {
 }
 
 footer {
-  background-color: #555;
+  background-color: #01579B;
   color: white;
 }
 
@@ -53,6 +101,16 @@ p {
   font-size: 2.5vh;
 }
 
+.art {
+  margin: 10px;
+  border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  border: 2px solid rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 40px 0px rgb(178, 235, 242);
+  background-color: #FFF;
+}
+
 .bodyimg {
   margin: 3vh auto;
   width: 45vw;
@@ -67,7 +125,18 @@ p {
   height: 100%;
 }
 
+#intro {
+  margin-top: 7vh;
+}
+
 @media screen and (max-width: 767px) {
+  ul {
+    text-align: center;
+    font-family: 'Itim';
+    font-size: 4.5vh;
+    margin: 2vh;
+  }
+
   .logo {
     margin-top: -1.4vh;
     margin-left: -2vw;
@@ -78,10 +147,8 @@ p {
     margin: auto;
   }
 
-  ul {
-    text-align: center;
-    font-family: 'Itim';
-    font-size: 4.5vh;
-    margin: 2vh;
+
+  #intro {
+    margin-top: 5vh;
   }
 }
